@@ -1,0 +1,51 @@
+body {
+  background-color: #dadada; }
+  body header {
+    background-image: url("../multimedia/portada.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 35vh; }
+    nav{
+      background-color: #ee98fb;}
+    nav a{
+      color: white;
+      transition: 600ms;}
+      nav a:hover{
+      transition: 600ms;
+      color: #883997;
+      transform: scale(1.2);}
+  body main {
+    margin: 0 10%; }
+    body main section {
+      margin: 5% 0; }
+      body main section .d-flex .fotoPresentacion {
+        width: 30%;
+        transition: 600ms; }
+        body main section .d-flex .fotoPresentacion img {
+          border-radius: 10%;
+          width: 100%;}
+          .fotoPresentacion:hover{
+            width: 200px;
+            transition: 200ms;
+            transform: scale(1.2);
+          }
+      body main section .d-flex .parPresentacion {
+        width: 75%;
+        margin-left: 5%; }
+    body main .publicaciones {
+      flex-wrap: wrap;
+      justify-content: center; }
+      body main .publicaciones .card {
+        margin: 1%; }
+    body main .mirada .card {
+      margin: 1%; }
+  body footer {
+    background-color: #883997;
+    font-style: #dadada; }
+.btn{
+  background-color: #ee98fb !important;
+  border-color: #ee98fb !important;
+}
+.btn:hover{
+  background-color: #883997 !important;
+}

@@ -1,0 +1,79 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E5E5E5; }
+  body .color{
+    color: #002984;
+    font-weight: bolder;
+  }
+  body .color-n{
+    color: #883997;
+    font-weight: bolder;
+  }
+  body nav{
+      background-color: #FFFFFF;}
+      body nav a img{
+          width: 25px; }
+  body main {
+    margin: 0 15%; }
+    body main .carousel{
+      margin-top: 10%;
+    }
+      body main .carousel .carousel-caption{
+        background-color: rgba(186, 104, 200, 0.6);
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding-top: 0;        
+        padding-bottom: .6rem;
+      }
+      .carousel-indicators{
+        margin-bottom: 0;
+      }
+    body main section {
+      margin: 5% 0; }
+      body main .inicio{
+        background-color: #F1FFFF;
+        padding: 5%;
+      }
+      body main .inicio h2{
+        font-size: 1.75rem;
+      }
+      body main section .d-flex .fotoPresentacion {
+        width: 30%;
+        transition: 600ms; }
+        body main section .d-flex .fotoPresentacion img {
+          border-radius: 10%;
+          width: 100%;}
+          .fotoPresentacion:hover{
+            width: 200px;
+            transition: 200ms;
+            transform: scale(1.2);          }
+      body main section .d-flex .parPresentacion {
+        width: 75%;
+        margin-left: 5%; }
+    body main .publicaciones {
+      flex-wrap: wrap;
+      justify-content: center; }
+      body main .publicaciones .card {
+        margin: 1%; }
+    body main .mirada .card {
+      margin: 1%; }
+  body footer {
+    background-color: #883997;
+    font-style: #dadada; }
+.btn{
+  background-color: #ee98fb !important;
+  border-color: #ee98fb !important;
+}
+.btn:hover{
+  background-color: #883997 !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .d_none{
+    display: none;
+  }
+}
