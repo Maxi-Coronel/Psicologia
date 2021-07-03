@@ -1,0 +1,54 @@
+$greyblue: #475561;
+$grey: #dadada;
+$whiteblue:#80deea;
+$blue: #002872;
+$white: #ffffff;
+$black: #000;
+$colorPrincipal: $grey;
+$colorSecundario: $grey;
+$fuente: 'Julius Sans One', sans-serif;
+
+body{
+    background-color: $colorPrincipal;
+    header{
+            background-image: url("../multimedia/portada.jpg");
+            background-repeat: no-repeat;
+            background-position: center center;
+            height: 35vh;
+    }
+    main{
+        margin: 0 10%;
+        section{
+            margin: 5% 0;
+            .d-flex{
+                .fotoPresentacion{
+                    width: 20%;
+                    img{
+                        border-radius: 50%;
+                        width: 100%;
+                    }
+                }
+                .parPresentacion{
+                    width: 75%;
+                    margin-left: 5%;
+                }
+            }
+        }
+        .publicaciones{
+            flex-wrap: wrap;
+            justify-content: center;
+            .card{
+                margin: 1%;
+            }
+        }
+        .mirada{
+            .card{
+                margin: 1%;
+            }
+        }
+    }
+    footer{
+        background-color: $black;
+        font-style: $grey;
+    }
+}
