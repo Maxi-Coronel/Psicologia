@@ -72,6 +72,14 @@ body {
   background-color: #883997 !important;
 }
 
+footer div .center{
+  justify-content: center;
+  justify-self: center;
+  justify-items: center;
+  align-self: center;
+  align-content: center;
+}
+
 @media only screen and (max-width: 767px) {
   .d_none{
     display: none;
